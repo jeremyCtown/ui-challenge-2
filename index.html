@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>UI Challenge - 2</title>
+      <meta charset="utf-8">
+      <link href="styles/reset.css" rel="stylesheet">
+      <link href="styles/base.css" rel="stylesheet">
+      <link href="styles/layout.css" rel="stylesheet">
+      <link href="styles/modules.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>UI Challenge - Custom Form Elements</h1>
+    </header>
+    <form>
+      <div>
+        <h2 class="box-title">text input</h2>
+        <input type="text" id= "username" placeholder="placeholder text" required>
+        <label for="username" id="username-label">Please enter a valid username</label>
+      </div>
+      <div id= "select-box">
+        <h2 class="box-title">select box</h2>
+        <select id="dropdown">
+          <option id="select-placeholder" value="none" style="background-image:url(sprites/sprites.png);">please select an option</option>
+          <option class="odd-option" value="option-1">option 1</option>
+          <option class="even-option" value="option-2">option 2</option>
+          <option class="odd-option" value="option-3">option 3</option>
+          <option class="even-option" value="option-4">option 4</option>
+          <option class="odd-option" value="option-5">option 5</option>
+          </select>
+          <label for="dropdown"></label>
+      </div>
+      <div id="checkbox-element">
+        <h2 class="box-title">text input</h2>
+        <input id= "checkbox" type="checkbox">
+        <label for="checkbox"></label>
+      </div>
+      <div id="radio-button">
+        <h2 class="box-title">radio</h2>
+        <input type= "radio" id="radio">
+        <label for="radio"></label>
+      </div>
+      <div>
+        <h2 class="box-title">buttons</h2>
+        <button type="submit" id="submit">submit</button>
+      </div>
+    </form>
+  </body>
+</html>
