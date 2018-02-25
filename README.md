@@ -44,3 +44,5 @@ The instructions on the comp page say to do the styling with JavaScript; it is r
 
 ## Links
 https://www.w3schools.com/css/css_image_sprites.asp
+https://stackoverflow.com/questions/37582952/using-a-background-image-for-checkbox
+https://stackoverflow.com/questions/20340138/remove-blue-border-from-css-custom-styled-button-in-chrome
