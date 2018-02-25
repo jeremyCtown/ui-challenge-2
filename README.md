@@ -41,3 +41,6 @@ The instructions on the comp page say to do the styling with JavaScript; it is r
 - Style the page to reflect the comp image provided as closely as possible; but, feel free to leave out the paragraph of instructions.
 - You need not be concerned with responsiveness or mobile layout on this assignment.
 - There are no absolute right or wrong answers... just do your best.
+
+## Links
+https://www.w3schools.com/css/css_image_sprites.asp
